@@ -140,9 +140,9 @@ input
 	color: #fff;
 	font-family: Nunito;
 	padding: 0;
-	/* margin: 0; */
-	/* margin-bottom: 1; */
-	border: 0;
+	margin: 0;
+	margin-bottom: 1; 
+  border: 0;
 	background-color: transparent;
 	/* resize: vertical; */
 }
@@ -155,7 +155,7 @@ input
     right: 0;
     /* width: 1050px; */
     padding: 25px;
-    margin: auto auto auto auto;
+    margin: 0 auto 0 auto;
     background-color: black;
     border-radius: 20px;
     box-shadow: 0 10px 40px grey, 0 0 0 20px #ffffffeb;
@@ -165,9 +165,10 @@ input
 input[type="text"]
 {
 	width: 100%;
-	height: 26px;
-	font-size: 35px;
+	height: 28px;
+	font-size: 30px;
 	line-height: 1;
+  padding-bottom: 0.3em;
 }
 
 input[type="text"]::placeholder
