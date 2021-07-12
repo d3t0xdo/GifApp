@@ -73,20 +73,6 @@ body {
   background-color: var(--surface-color);
   transform: translateY(-100%);
   transition: .2s ease-in-out;
-}
-
-.card__arc {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  bottom: 100%;
-  right: 0;      
-  z-index: 1;
-}
-
-.card__arc path {
-  fill: var(--surface-color);
-  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
 }       
 
 .card:hover .card__header {
@@ -153,21 +139,22 @@ input
 	color: #fff;
 	font-family: Nunito;
 	padding: 0;
-	margin: 0;
-	margin-bottom: 1;
+	/* margin: 0; */
+	/* margin-bottom: 1; */
 	border: 0;
 	background-color: transparent;
+	/* resize: vertical; */
 }
 
 #cover
 {
-    /*position: absolute;*/
-    /*top: 10%;*/
-    left: 1;
+    /* position: relative; */
+    top: 10%;
+    left: auto;
     right: 0;
-    width: 1050px;
+    /* width: 1050px; */
     padding: 25px;
-    margin: 1 1 1 1;
+    margin: auto auto auto auto;
     background-color: black;
     border-radius: 20px;
     box-shadow: 0 10px 40px grey, 0 0 0 20px #ffffffeb;
@@ -243,4 +230,3 @@ input[type="text"]::placeholder
   box-shadow: 0 10px 20px -5px rgba(255, 117, 117, 0.86);
   z-index: 125;
 }
-
