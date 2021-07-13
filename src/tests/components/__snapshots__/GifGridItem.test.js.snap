@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of the component GifGridItem Test of the return in the component 1`] = `
+<div
+  className="card"
+>
+  <img
+    className="card_image"
+  />
+  <div
+    className="card_overlay"
+  >
+    <div
+      className="card_header"
+    >
+      <div
+        className="card_header_text"
+      >
+        <h3
+          className="card__title"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
